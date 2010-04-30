@@ -1,0 +1,5 @@
+*.svn
+*.settings
+*.project
+*.cproject
+/Debug
