@@ -9,11 +9,11 @@
 #include <iostream>
 
 #include "EnumTypes.h"
-#include "NeuralNetwork.h"
-#include "Individual.h"
-#include "EvolutionaryAlgorithm.h"
-#include "SOMA.h"
-#include "DifferentialEvolution.h"
+#include "neuralNetwork/NeuralNetwork.h"
+#include "trainingAlgorithms/Individual.h"
+#include "trainingAlgorithms/EvolutionaryAlgorithm.h"
+#include "trainingAlgorithms/SOMA.h"
+#include "trainingAlgorithms/DifferentialEvolution.h"
 
 using namespace std;
 
@@ -57,6 +57,7 @@ int main() {
 //	delete network;
 //	delete eAlg;
 
+	cout << "nothing at all :)" << endl;
 	return 0;
 }
 

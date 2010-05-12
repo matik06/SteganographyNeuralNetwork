@@ -15,6 +15,7 @@ namespace KindOfNeuron
     	SIGMOIDAL_BP_NEURON,
     	SIGMOIDAL_UP_NEURON,
     	TANH_NEURON,
+    	LINEAR,
     };
 }
 
